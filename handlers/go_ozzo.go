@@ -5,10 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"bitbucket.org/cikupin/testing_code/filtering_input/helpers"
-	"bitbucket.org/cikupin/testing_code/filtering_input/models"
-
-	"github.com/go-ozzo/ozzo-validation"
+	"github.com/cikupin/filtering_input/helpers"
+	"github.com/cikupin/filtering_input/models"
 	"github.com/go-ozzo/ozzo-validation/is"
 )
 

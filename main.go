@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"bitbucket.org/cikupin/testing_code/filtering_input/handlers"
+	"github.com/cikupin/filtering_input/handlers"
 	"github.com/gorilla/mux"
 )
 
