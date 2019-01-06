@@ -2,47 +2,35 @@
 
 
 [[projects]]
-  digest = "1:320e7ead93de9fd2b0e59b50fd92a4d50c1f8ab455d96bc2eb083267453a9709"
   name = "github.com/asaskevich/govalidator"
   packages = ["."]
-  pruneopts = "UT"
   revision = "ccb8e960c48f04d6935e72476ae4a51028f9e22f"
   version = "v9"
 
 [[projects]]
-  digest = "1:aa047c900450fea2242fbb449076eb20cea8278f3b15d2db1950a3c8da8e4308"
   name = "github.com/go-ozzo/ozzo-validation"
   packages = [
     ".",
-    "is",
+    "is"
   ]
-  pruneopts = "UT"
   revision = "106681dbb37bfa3e7683c4c8129cb7f5925ea3e9"
   version = "v3.5.0"
 
 [[projects]]
-  digest = "1:c79fb010be38a59d657c48c6ba1d003a8aa651fa56b579d959d74573b7dff8e1"
   name = "github.com/gorilla/context"
   packages = ["."]
-  pruneopts = "UT"
   revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:e73f5b0152105f18bc131fba127d9949305c8693f8a762588a82a48f61756f5f"
   name = "github.com/gorilla/mux"
   packages = ["."]
-  pruneopts = "UT"
   revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
   version = "v1.6.2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/go-ozzo/ozzo-validation",
-    "github.com/go-ozzo/ozzo-validation/is",
-    "github.com/gorilla/mux",
-  ]
+  inputs-digest = "749a128440fb7debb63b89a1df78c5eb76c9465b6b070171dad3e460a6449341"
   solver-name = "gps-cdcl"
   solver-version = 1
