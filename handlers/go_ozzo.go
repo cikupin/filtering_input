@@ -7,6 +7,7 @@ import (
 
 	"github.com/cikupin/filtering_input/helpers"
 	"github.com/cikupin/filtering_input/models"
+	"github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
 )
 
